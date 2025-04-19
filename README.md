@@ -39,4 +39,12 @@ The tool will guide you through the repository creation process with interactive
 2. Enter repository description (optional)
 3. Choose whether the repository should be private or public
 
+Example interaction:
+```
+Enter repository name: foo
+Enter repository description (optional):
+Creating a new GitHub repository: foo
+Do you want the repository to be private? (Y/n):
+```
+
 After completing these steps, the tool will create the repository on GitHub and provide you with the repository URL and git clone command.
