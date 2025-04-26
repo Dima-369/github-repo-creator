@@ -131,8 +131,6 @@ async fn main() -> Result<(), Box<dyn Error>> {
         Some(description_input)
     };
 
-    println!("Creating a new GitHub repository: {}", name);
-
     // Ask user if they want a public or private repository
     let private_input =
         prompt_input_interactive("Do you want the repository to be private? (Y/n): ")?;

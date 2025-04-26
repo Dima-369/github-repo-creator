@@ -43,7 +43,6 @@ Example interaction:
 ```
 Enter repository name: foo
 Enter repository description (optional):
-Creating a new GitHub repository: foo
 Do you want the repository to be private? (Y/n):
 ```
 
